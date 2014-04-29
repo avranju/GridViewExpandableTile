@@ -12,6 +12,7 @@ namespace GridViewExpandableTile.Services
 {
     class PhotosDataService
     {
+        // TODO: Be nice and change this to use your own Flickr API key.
         private const string API_KEY = "bf3b5784792dcda75692837db1b6b0e5";
         private const string BASE_URL = "http://api.flickr.com/services/rest/?";
         private const string SEARCH_METHOD = "flickr.photos.search";
